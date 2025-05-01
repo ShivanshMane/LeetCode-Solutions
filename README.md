@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/ShivanshMane/LeetCode-Solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/ShivanshMane/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0128-longest-consecutive-sequence](https://github.com/ShivanshMane/LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0238-product-of-array-except-self](https://github.com/ShivanshMane/LeetCode-Solutions/tree/master/0238-product-of-array-except-self) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/ShivanshMane/LeetCode-Solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/ShivanshMane/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/ShivanshMane/LeetCode-Solutions/tree/master/0125-valid-palindrome) |
 ## String
@@ -62,4 +64,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/ShivanshMane/LeetCode-Solutions/tree/master/1421-find-numbers-with-even-number-of-digits) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/ShivanshMane/LeetCode-Solutions/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
