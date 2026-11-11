@@ -11,7 +11,7 @@ Approach =
     then check if height of left is smaller than height of right
     increment left else increment right 
     return maxarea
-    Space Complexity = O(n), Time Complexity = O(n)
+    Space Complexity = O(1), Time Complexity = O(n)
     n being the number of integers in the array height
 '''
 class Solution:
