@@ -1,17 +1,31 @@
+'''
+Approach - 
+    create count hashmap which stores the count and the character
+    initialize maxf, res, l to 0 
+    iterat through the string using for loop
+    update count for each character in teh hashmap count
+    use max function to see maxf, count
+    check if the window is valid 
+    or do we need to replace characters
+    if window is invalid 
+    decrement the count of left index 
+    increment left by 1
+    use max function for res 
+    return res
+'''
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         count = {}
-        res = 0
-        
-        l = 0
-        maxf = 0
+        maxf = 0 
+        l = 0 
+        res = 0 
         for r in range(len(s)):
-            count[s[r]] = 1 + count.get(s[r], 0)
+            count[s[r]] = 1 + count.get(s[r],0)
             maxf = max(maxf, count[s[r]])
 
-            while (r - l + 1) - maxf > k:
+            while( r - l + 1) - maxf > k:
                 count[s[l]] -= 1
                 l += 1
             res = max(res, r - l + 1)
-
         return res
+        
