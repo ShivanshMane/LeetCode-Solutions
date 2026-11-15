@@ -37,7 +37,8 @@ Approach -
     then recursively check left tree, with paramaters,root.left,p,q and store the result in left 
     do the same for right side with parameters, root.right,p, q and store result in right
     then check if left and right are not none, return the root
-    time complexity - O(n), space complexity - O(n)
+    time complexity - O(n), space complexity - O(h)
+    n hers is the number of nodes and h is the height of the binary search tree
 '''
 class Solution:
     def lowestCommonAncestor(self, root: Optiona[TreeNode], p:Optional[TreeNode], q:Optional[TreeNode])->TreeNode:
